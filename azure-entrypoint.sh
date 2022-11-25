@@ -30,7 +30,7 @@ make && make install
 snap install john-the-ripper
 
 # Install and reference some wordlists
-wget --quiet -O /opt/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+# wget --quiet -O /opt/rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 cat <<EOF > /opt/wordlists.txt
 Get some additional wordlists here:
