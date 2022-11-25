@@ -9,7 +9,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_NV6_Promo",
+      "defaultValue": "NC96ads_A100_v4",
       "metadata": {
         "description": "VM size for the hashcat server. (see https://azureprice.net/)"
       },
