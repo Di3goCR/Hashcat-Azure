@@ -20,7 +20,7 @@ add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos
 apt update && apt install -y nvidia-headless-515 cuda-toolkit-11-7
 
 # Install Hashcat
-HASHCAT_SRC_PKG=hashcat-6.2.5
+HASHCAT_SRC_PKG=hashcat-6.2.6
 wget https://hashcat.net/files/${HASHCAT_SRC_PKG}.tar.gz
 tar -xf ${HASHCAT_SRC_PKG}.tar.gz
 cd ${HASHCAT_SRC_PKG}
